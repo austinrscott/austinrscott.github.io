@@ -9,7 +9,8 @@
     "develop": "gatsby develop",
     "d": "yarn develop",
     "start": "gatsby develop",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-cara": "^0.0.4",
